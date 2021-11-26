@@ -1,0 +1,42 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.App .counter-wrapper {
+  width: 500px;
+  height: 500px;
+  border: 1px solid grey;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #fff;
+}
+.counter-output {
+  font-size: 30px;
+  margin-top: 10px;
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 20px;
+}
+.counter-iseven {
+  font-size: 25px;
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 20px;
+}
+.btn {
+  padding: 15px 40px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.light {
+  background-color: #BEBEBE;
+}
+.dark {
+  background-color: #303030;
+}
